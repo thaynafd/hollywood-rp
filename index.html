@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hollywood</title>
-</head>
-<body>
-    <h1>Hollywood</h1>
-</body>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="src/css/style.css">
+
+      <title>ㅤHollywood RP</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <i class="ri-star-line"></i> Hollywood
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Sobre</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Equipe</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Denunciar</a>
+                  </li>
+
+               <a href="#" class="nav__button">Loja</a>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-2-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home">
+            <div class="home__container container">
+               <div class="home__content">
+                  <h3 class="home__subtitle">
+                     A cidade dos famosos
+                  </h3>
+                  
+                  <h1 class="home__title">
+                     <span>
+                        Hollywood Roleplay
+                     </span>
+
+                     <img src="src/imagens/line.svg" alt="">
+                  </h1>
+
+                  <p class="home__description">
+                     A melhor cidade de FiveM para você jogar com seus amigos e se divertir.<br><br>
+                     STAFF presente e ativa, venha fazer parte da nossa família.  
+                  </p>
+
+                  <a href="#" class="home__button">
+                     Fazer WL
+                  </a>
+               </div>
+
+               <div class="home__images">
+                  <img src="src/imagens/points-space.png" alt="image" class="home__points">
+                  <img src="src/imagens/favicon.png" alt="image" class="home__logo">
+               </div>
+            </div>
+            
+            <img src="src/imagens/clouds-1.svg" alt="image" class="home__cloud-1">
+            <img src="src/imagens/clouds-2.svg" alt="image" class="home__cloud-2">
+         </section>
+      </main>
+      
+      <!--=============== GSAP ===============-->
+      <script src="src/js/gsap.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="src/js/index.js"></script>
+   </body>
 </html>
